@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BOMBEE's gallery</h1>
+        <p>Explore our beautiful collection of picture</p>
+    </header>
+
+    <main class="gallery">
+        <div class="gallery-item">
+            <img src="image/IMG 1.jpg" alt="Gallery image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG 2.jpg" alt="Gallery image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG 3.jpg" alt="Gallery image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG 4.jpg" alt="Gallery image 4">
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG 5.jpg" alt="Gallery image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="image/IMG 6.jpg" alt="Gallery image 6">
+        </div>
+    </main>
+
+    <div class="lightbox" id="lightbox">
+        <button class="close" id="close" arta-label="close">&times;</button>
+        <button class="prev" id="prev" arta-label="previous image">&#10095;</button>
+        <img src="" alt="large image preview" id="lightbox-img">
+        <button class="next" id="next" arta-label="net image">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
